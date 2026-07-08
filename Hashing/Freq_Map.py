@@ -9,4 +9,7 @@ Freq_Map = dict()
 
 for i in range(0,len(n)):
     Freq_Map[n[i]] = Freq_Map.get(n[i],0)+1
+    #.get returns 0 if the value is not present in dictionary 
+    #if the value exists it will return the value of that key 
+    #+1 will basically increment the value of that key by 1
 print(Freq_Map)
