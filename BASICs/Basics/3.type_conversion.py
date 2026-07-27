@@ -5,8 +5,8 @@
 #explicit conversion
 num = "100"
 num2 = 20.0
-int_num = int(num)
-float_num = float(num2)
+int_num = int(num2)
+float_num = float(num)
 print(int_num, type(int_num))
 print(float_num, type(float_num))
 
